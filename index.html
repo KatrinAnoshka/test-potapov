@@ -2,14 +2,42 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Nambawan Trawel</title>
+
+	<meta content="Организуем корпоративное путешествие для Ваших сотрудников и клиентов" name="description" />
+    <meta content="корпоративное путешествие, отдых для сотрудников" name="keywords" />
 	
+	<link rel="shortcut icon" href="img/favicon.ico" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="libs/owl/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<nav>
-		
+		<img src="img/menu.png" alt="menu">
+		<p class="menu">Меню</p>
+
+		<div class="soc-items">
+
+			<a class="vk-item" href="https://vk.com/" target="_blank">
+				<span class="soc-descr">vkontakte</span>
+				<img class="soc-img" src="img/vk.png" alt="vkontakte">
+				
+			</a>
+			<a class="inst-item" href="https://www.instagram.com/" target="_blank">
+				<span class="soc-descr">instagram</span>
+				<img class="soc-img" src="img/instagram.png" alt="instagram">
+				
+			</a>
+
+		</div>
 	</nav>
 
 	<section class="top-slide">
@@ -17,8 +45,8 @@
 		<div class="logo-wrap">
 			<img src="img/logo.png" alt="Logo">
 			<div class="phone-wrap">
-				<div class="phone">+375 29 987 65 43</div>
-				<p>обратный звонок</p>
+				<a class="phone" href="tel:+375299876543">+375 29 987 65 43</a>
+				<a class="call-back" href="#form_back">обратный звонок</a>
 			</div>
 		</div>
 
@@ -46,17 +74,127 @@
 
 	</section>
 
-	<div class="second-section">
+	<section class="second-section">
 
-		<nav>
-		
-		</nav>
-		
-		<div class="video">
-		 	<iframe width="640" height="780" src="https://www.youtube.com/embed/OV3dXXDNJUo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<nav></nav>
+
+		<div class="sec-wrap">
+			<div class="video">
+			 	
+			</div>
+
+			<div class="sec-descr">
+				
+				<div class="sec-descr-wrap">
+					<h2>Только с нами<br> вы сможете знатно<br> угареть!</h2>
+					<p>Гляньте наше чумовое видео, если не верите.<br>Если хотите - и вам такое же по итогу снимем -<br> будет что вспомнить.</p>
+				</div>
+
+				<div class="sec-space">
+
+					<div class="world-wrap">
+						<img src="img/world.png" alt="world">
+						<p>Работаем в любой<br> точке планеты</p>
+					</div>
+
+					<div class="space-wrap">
+						<img src="img/space.png" alt="space">
+						<p>Но если на Земле<br> все видели, то no problem...</p>
+					</div>
+
+				</div>
+
+			</div>
 		</div>
 
-	</div>
+	</section>
+
+
+
+	<section class="third-section">
+		
+		<nav></nav>
+
+		<h2>Как это было</h2>
+
+		<div class="third-top-wrap">
+			<div class="top-main">
+				<div class="top-main-items">
+					<pre class="data">01  &frasl;  04</pre>
+					<img src="img/top-item-1.png" alt="A man conquers an icy top" width="450" height="315">
+					<p class="item-descr">Восхождение</p>
+				</div>
+
+				<div class="main-item-descr">Покорили ледяные вершины<br> с командой <span>HBO</span></div>
+			</div>
+
+			<h3>Находим<br><span>сильные стороны</span><br>вашей команды!</h3>
+		</div>
+		
+		<div class="third-bottom-wrap">
+
+			<h3>Создаем самую<br>настоящую<br><span>dream team!</span></h3>
+			<div class="bottom-main">
+				<div class="bottom-main-items">
+					<pre class="data">02  &frasl;  05</pre>
+					<img src="img/bottom-item-1.png" alt="A man conquers an icy top" width="450" height="315">
+					<p class="item-descr">Погружение</p>
+				</div>
+
+				<div class="main-item-descr">Поплавали за рыбками<br> с <span>National Geographic</span></div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+		<nav></nav>
+
+		<div class="footer-wrap">
+
+			<div class="footer-item">
+				<p>Тестовое задание сделал:</p>
+				<h4>Екатерина Аношка</h4>
+			</div>
+
+			<div class="footer-item">
+				<p>Затраченное время:</p>
+				<h4>24 часа</h4>
+			</div>
+
+		</div>
+		
+	</footer>
+
+	<!--*******Всплывающая форма*******-->
+
+    <div class="hidden">
+        <form id="form_back">
+            <h2>Заказать звонок</h2>
+            <p>Мы свяжемся с Вами в течение 10 минут<br> и ответим на все Ваши вопросы</p>
+            <label>
+                <span>Ваше имя:</span>
+                <input type="text" name="name" required />
+            </label>
+            <label>
+                <span>Ваш телефон:</span>
+                <input type="text" name="phone" value="+(375)" required />
+            </label>
+            <div class="button_wrap">
+                <button class="button btn-green">Отправить заявку</button>
+            </div>
+
+            <input type="hidden" name="formname" value="">
+
+        </form>
+    </div>    
+	
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="libs/owl/owl.carousel.min.js"></script>
+    <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="libs/animate/jquery.waypoints.js"></script>
+
+    <script src="js/common.js"></script>
 
 </body>
 </html>
