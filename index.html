@@ -20,9 +20,18 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<nav>
-		<img src="img/menu.png" alt="menu">
-		<p class="menu">Меню</p>
+	<nav class="fix-menu">
+		<div class="menu-wrap">
+			<img class="nav-img"src="img/menu.png" alt="menu">
+			<div class="delete">X</div>
+			<p class="menu">Меню</p>
+		</div>
+
+		<ul class="side-menu">
+			<li><a href="#home">Главная</a></li>
+			<li><a href="#video">Видео</a></li>
+			<li><a href="#history">Как это было</a></li>
+		</ul>
 
 		<div class="soc-items">
 
@@ -40,7 +49,7 @@
 		</div>
 	</nav>
 
-	<section class="top-slide">
+	<section id="home" class="top-slide">
 
 		<div class="logo-wrap">
 			<img src="img/logo.png" alt="Logo">
@@ -55,26 +64,54 @@
 			<h1>Организуем корпоративное<br> путешествие для Ваших<br> сотрудников и клиентов</h1>
 		</div>
 
-		<div class="top-descr">
-			<div class="descr-first">
-				<p>Повышаем лояльность<br> сотрудников</p>
+		<div class="top-slider owl-carousel owl-theme">
+
+			<div class="top-descr slide">
+				<div class="descr-first">
+					<p>Повышаем лояльность<br> сотрудников</p>
+				</div>
+				<div class="descr-second">
+					<p>Увеличиваем мотивацию<br> сотрудников</p>
+				</div>
+				<div class="descr-third">
+					<p>Улучшаем имидж<br> компании</p>
+				</div>
 			</div>
-			<div class="descr-second">
-				<p>Увеличиваем мотивацию<br> сотрудников</p>
+
+			<div class="top-descr slide">
+				<div class="descr-first">
+					<p>Повышаем лояльность<br> сотрудников</p>
+				</div>
+				<div class="descr-second">
+					<p>Увеличиваем мотивацию<br> сотрудников</p>
+				</div>
+				<div class="descr-third">
+					<p>Улучшаем имидж<br> компании</p>
+				</div>
 			</div>
-			<div class="descr-third">
-				<p>Улучшаем имидж<br> компании</p>
+
+			<div class="top-descr slide">
+				<div class="descr-first">
+					<p>Повышаем лояльность<br> сотрудников</p>
+				</div>
+				<div class="descr-second">
+					<p>Увеличиваем мотивацию<br> сотрудников</p>
+				</div>
+				<div class="descr-third">
+					<p>Улучшаем имидж<br> компании</p>
+				</div>
 			</div>
+
 		</div>
 
 		<div class="arrow-bottom">
-			<img src="img/arrow.png" alt="arrow">
+			<img class="arrow-img" src="img/arrow.png" alt="arrow">
 			<p>Мы в этом шарим!</p>
 		</div>
 
 	</section>
 
-	<section class="second-section">
+	<section id="video" class="second-section">
 
 		<nav></nav>
 
@@ -111,7 +148,7 @@
 
 
 
-	<section class="third-section">
+	<section id="history" class="third-section">
 		
 		<nav></nav>
 

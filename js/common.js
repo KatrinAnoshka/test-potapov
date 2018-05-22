@@ -37,5 +37,27 @@ $(document).ready(function() {
 		return false;
 	});
 
-  
+  	// Menu
+
+  	 $('.menu-wrap').on('click', function(){
+	    $('.fix-menu, .nav-img, .delete, .menu, .side-menu, .side-menu li a, .soc-items, .soc-img, .soc-descr').toggleClass('open');
+  	});
+
+
+  	/************ Вторая секция - отзывы ************/
+	$(".owl-carousel").owlCarousel({
+		items : 1,
+		nav : true,
+		navText : "",
+		loop : true,
+		autoplay : true,
+		autoplayHoverPause : true,
+		fluidSpeed : 800,
+		autoplaySpeed : 1000,
+		navSpeed : 600,
+		dotsSpeed : 600,
+		dragEndSpeed : 600
+	});
+
+
 });	
